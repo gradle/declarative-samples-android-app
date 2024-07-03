@@ -11,9 +11,3 @@ To build the application without running, use:
 ```shell
 > ./gradlew build
 ```
-
-To run the application, use:
-
-```shell
-> ./gradlew run
-```
