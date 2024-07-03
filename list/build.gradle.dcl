@@ -1,3 +1,3 @@
 androidLibrary {
-    namespace = "org.gradle.experimental.android.library.util"
+    namespace = "org.gradle.experimental.android.list"
 }
