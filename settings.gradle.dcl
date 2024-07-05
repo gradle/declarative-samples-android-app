@@ -1,7 +1,4 @@
-// TODO: This block is temporary, until we can publish a new version of the Gradle plugin
-// that includes a testing block and other Jvm ecosytem plugin updates
 pluginManagement {
-    includeBuild("../now-in-android/declarative-gradle/unified-prototype/unified-plugin")
     repositories {
         google() // Needed for the Android plugin, applied by the unified plugin
         gradlePluginPortal()
@@ -9,9 +6,7 @@ pluginManagement {
 }
 
 plugins {
-    // TODO: Swap these lines when latest version of the plugin is published
-    id("org.gradle.experimental.android-ecosystem")
-//    id("org.gradle.experimental.android-ecosystem") version "0.1.2"
+    id("org.gradle.experimental.android-ecosystem") version "0.1.6"
 }
 
 rootProject.name = "example-android-app"
