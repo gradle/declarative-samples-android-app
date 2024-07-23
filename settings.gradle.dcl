@@ -15,7 +15,7 @@ include("app")
 include("list")
 include("utilities")
 
-conventions {
+defaults {
     androidApplication {
         jdkVersion = 11
         compileSdk = 34
