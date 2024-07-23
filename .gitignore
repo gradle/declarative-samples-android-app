@@ -55,3 +55,6 @@ build
 # macOS
 # ----
 .DS_Store
+
+# Android
+local.properties
