@@ -19,9 +19,10 @@ defaults {
     androidApplication {
         jdkVersion = 11
         compileSdk = 34
+        minSdk = 30
 
-        versionCode = 8
-        versionName = "0.1.2"
+        versionCode = 1
+        versionName = "0.1"
         applicationId = "org.gradle.experimental.android.app"
 
         testing {
@@ -35,6 +36,7 @@ defaults {
     androidLibrary {
         jdkVersion = 11
         compileSdk = 34
+        minSdk = 30
 
         testing {
             dependencies {
