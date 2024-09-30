@@ -9,6 +9,10 @@ plugins {
     id("org.gradle.experimental.android-ecosystem") version "0.1.7"
 }
 
+dependencyResolutionManagement {
+    repositoriesMode = PREFER_PROJECT
+}
+
 rootProject.name = "example-android-app"
 
 include("app")
