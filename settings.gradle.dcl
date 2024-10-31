@@ -6,11 +6,7 @@ pluginManagement {
 }
 
 plugins {
-    id("org.gradle.experimental.android-ecosystem").version("0.1.19")
-}
-
-dependencyResolutionManagement {
-    repositoriesMode = PREFER_PROJECT
+    id("org.gradle.experimental.android-ecosystem").version("0.1.21")
 }
 
 rootProject.name = "example-android-app"
@@ -21,7 +17,7 @@ include("utilities")
 
 defaults {
     androidApplication {
-        jdkVersion = 11
+        jdkVersion = 17
         compileSdk = 34
         minSdk = 30
 
@@ -38,7 +34,7 @@ defaults {
     }
 
     androidLibrary {
-        jdkVersion = 11
+        jdkVersion = 17
         compileSdk = 34
         minSdk = 30
 
