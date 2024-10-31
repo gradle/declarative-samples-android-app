@@ -57,4 +57,5 @@ build
 .DS_Store
 
 # Android
+.kotlin
 local.properties
