@@ -18,44 +18,35 @@ gradle-app.setting
 # Cache of project
 .gradletasknamecache
 
-# Eclipse Gradle plugin generated files
-# Eclipse Core
-.project
-# JDT-specific (Eclipse Java Development Tools)
-.classpath
-
 # Ignore Gradle build output directory
 build
 
 # IDEA
-# ----
-!/.idea
-/.idea/*
-!/.idea/codeStyles
-!/.idea/inspectionProfiles
-!/.idea/icon.png
-!/.idea/icon_dark.png
-*/**/.idea
-*/**/.shelf
+.idea
 .shelf
-/*.iml
-/*/*.iml
-/*/*/*.iml
-/*/*/*/*.iml
-/*/*/*/*/*.iml
-/out
-/*/out
-/*/*/out
-/*/*/*/out
-/*/*/*/*/out
-/.teamcity/target
-/gradle.ipr
-/gradle.iws
 
 # macOS
-# ----
 .DS_Store
 
 # Android
-.kotlin
 local.properties
+
+# Eclipse
+.settings/
+.classpath
+.project
+.metadata
+.loadpath
+.recommenders
+bin/
+tmp/
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+.history/
+
