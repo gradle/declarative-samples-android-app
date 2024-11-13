@@ -9,13 +9,13 @@ The project is the result of reproducing the project produced by the `gradle ini
 To build the project without running, use:
 
 ```shell
-  ./gradlew build
+./gradlew build
 ```
 
 To run the application, first install it on a connected Android device using:
 
 ```shell
-  :app:installDebug
+./gradlew :app:installDebug
 ```
 
-Then search for "Sample Declarative Gradle Android App" and launch app to see a hello world message.
+In IntelliJ IDEA or Android Studio you can use the `app` run configuration to launch the app in an emulator to see a hello world message.
